@@ -3,396 +3,378 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bincai Paper Box — Premium Paper Box Manufacturer</title>
-<meta name="description" content="Guangdong Bincai Color Printing: 20+ years as a premium paper box & folding box manufacturer. ISO9001 & FSC certified. Custom rigid boxes, mailer boxes, gift packaging.">
+<title>Bincai Paper Box — Custom Rigid Boxes, Folding Cartons & Corrugated Mailers</title>
+<meta name="description" content="Guangdong Bincai Color Printing: 20+ years manufacturing premium custom paper boxes. Rigid gift boxes, magnetic closure boxes, folding cartons, corrugated mailers. ISO 9001 & FSC certified.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-/* ═══════════════ Design System ═══════════════ */
-:root {
-  --blue-900: #1A3A7A;
-  --blue-700: #2B5DD5;
-  --blue-500: #4A7FE8;
-  --blue-100: #EBF0FC;
-  --gold: #C8A84E;
-  --gold-light: #F0E6C8;
-  --ink: #1E1E2E;
-  --text: #383838;
-  --muted: #6B7280;
-  --surface: #FFFFFF;
-  --gray-50: #F9FAFB;
-  --gray-100: #F3F4F6;
-  --gray-200: #E5E7EB;
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
-  --shadow-md: 0 4px 20px rgba(0,0,0,.08);
-  --shadow-lg: 0 12px 40px rgba(0,0,0,.12);
-}
+/* ═══════════════════════════ RESET & BASE ═══════════════════════════ */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{
-  font-family:'Noto Sans SC',-apple-system,'Helvetica Neue',Arial,sans-serif;
-  color:var(--text);font-size:15px;line-height:1.7;background:var(--surface);
-  -webkit-font-smoothing:antialiased
-}
-img{max-width:100%;height:auto}
-a{color:var(--blue-700);text-decoration:none}
-a:hover{color:var(--blue-900)}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:Inter,'Helvetica Neue',Arial,sans-serif;color:#1E1E2E;font-size:15px;line-height:1.7;background:#fff}
+img{max-width:100%;height:auto;display:block}
+a{color:#1E4DCC;text-decoration:none;transition:color .2s}
+a:hover{color:#0F367A}
 .container{max-width:1120px;margin:0 auto;padding:0 24px}
 
-/* ═══════════════ Typography ═══════════════ */
-h1{font-size:clamp(28px,4vw,48px);font-weight:800;line-height:1.15}
-h2{font-size:clamp(22px,2.8vw,32px);font-weight:700;line-height:1.2;margin-bottom:40px;text-align:center}
-h3{font-size:17px;font-weight:600;line-height:1.3}
-.section{padding:clamp(48px,8vw,100px)0}
-.section-sub{text-align:center;color:var(--muted);margin-bottom:48px;font-size:16px}
-
-/* ═══════════════ Top Bar ═══════════════ */
-.top-bar{background:var(--blue-900);color:rgba(255,255,255,.85);font-size:13px;padding:8px 0}
-.top-bar .container{display:flex;justify-content:space-between;align-items:center}
-.top-bar .left span{margin-right:20px}
-.lang{display:flex;gap:8px;align-items:center}
-.lang span{cursor:pointer;padding:2px 8px;border-radius:4px;transition:.2s}
-.lang span.active{background:rgba(255,255,255,.15);font-weight:600}
-
-/* ═══════════════ Navigation ═══════════════ */
-nav{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--gray-200)}
-nav .container{display:flex;justify-content:space-between;align-items:center;height:64px}
-.logo{display:flex;align-items:center;gap:10px}
-.logo-mark{width:38px;height:38px;background:var(--blue-700);color:#fff;border-radius:var(--radius-sm);
-  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
-.logo-text{line-height:1.2}
-.logo-text strong{font-size:16px;color:var(--ink);display:block}
-.logo-text small{font-size:11px;color:var(--muted)}
-.nav-links{display:flex;gap:28px;list-style:none}
-.nav-links a{font-size:14px;font-weight:500;color:var(--text);padding:6px 0;border-bottom:2px solid transparent;transition:.2s}
-.nav-links a:hover,.nav-links a.active{color:var(--blue-700);border-color:var(--blue-700)}
-
-/* ═══════════════ Hero ═══════════════ */
-.hero{
-  background:linear-gradient(135deg,var(--blue-900),var(--blue-700) 60%,var(--blue-500));
-  color:#fff;padding:clamp(60px,10vw,120px)0;position:relative;overflow:hidden
-}
-.hero::before{
-  content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;
-  border-radius:50%;background:rgba(255,255,255,.03);pointer-events:none
-}
-.hero .container{position:relative;z-index:1}
-.hero h1{margin-bottom:16px;max-width:720px}
-.hero p{font-size:17px;opacity:.9;margin-bottom:24px;max-width:560px}
-.hero-tags{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:32px}
-.hero-tags span{background:rgba(255,255,255,.12);padding:6px 14px;border-radius:20px;font-size:13px}
-.btn-group{display:flex;gap:12px;flex-wrap:wrap}
-.btn{
-  display:inline-flex;align-items:center;gap:8px;padding:13px 32px;border-radius:var(--radius-sm);
-  font-weight:600;font-size:14px;border:none;cursor:pointer;transition:all .3s;text-decoration:none
-}
-.btn-gold{background:var(--gold);color:var(--ink)}
-.btn-gold:hover{background:#B8973E;transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,168,78,.35)}
-.btn-outline{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4)}
-.btn-outline:hover{border-color:#fff;background:rgba(255,255,255,.08)}
-
-/* ═══════════════ Stats ═══════════════ */
-.stats{background:var(--gray-50);padding:40px 0;border-bottom:1px solid var(--gray-200)}
-.stats .container{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
-.stat-num{font-size:32px;font-weight:800;color:var(--blue-700);line-height:1}
-.stat-label{font-size:13px;color:var(--muted);margin-top:4px}
-
-/* ═══════════════ Products ═══════════════ */
-.products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.prod-card{
-  background:var(--surface);border:1px solid var(--gray-200);border-radius:var(--radius-md);
-  padding:32px 24px;transition:all .3s;cursor:default
-}
-.prod-card:hover{
-  border-color:var(--blue-700);box-shadow:var(--shadow-md);transform:translateY(-3px)
-}
-.prod-icon{width:48px;height:48px;background:var(--blue-100);border-radius:var(--radius-sm);
-  display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:16px;color:var(--blue-700)}
-.prod-card h3{margin-bottom:6px}
-.prod-card p{font-size:13px;color:var(--muted);line-height:1.6}
-
-/* ═══════════════ About ═══════════════ */
-.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:start}
-.about-text p{margin-bottom:16px;color:var(--text)}
-.badge-group{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
-.badge{
-  padding:5px 14px;border:1px solid var(--blue-700);border-radius:20px;
-  font-size:12px;font-weight:500;color:var(--blue-700)
-}
-.feature-list{list-style:none}
-.feature-list li{padding:10px 0;border-bottom:1px solid var(--gray-100);display:flex;align-items:center;gap:8px}
-.feature-list li::before{content:'▸';color:var(--blue-700);font-weight:700}
-
-/* ═══════════════ Advantages (Dark) ═══════════════ */
-.section-dark{background:linear-gradient(135deg,var(--blue-900),#0F2980);color:#fff}
+/* ═══════════════════════════ TYPOGRAPHY ═══════════════════════════ */
+h1{font-size:clamp(32px,4.5vw,52px);font-weight:800;line-height:1.08;letter-spacing:-.025em}
+h2{font-size:clamp(24px,2.8vw,34px);font-weight:700;line-height:1.2;letter-spacing:-.02em;margin-bottom:40px;text-align:center}
+h3{font-size:18px;font-weight:600;line-height:1.3}
+.section{padding:clamp(56px,8vw,100px)0}
+.section-gray{background:#F7F8FA}
+.section-dark{background:#0F2454;color:#fff}
 .section-dark h2{color:#fff}
+.section-sub{text-align:center;color:#6B7280;margin-bottom:48px;font-size:16px;max-width:640px;margin-left:auto;margin-right:auto}
+
+/* ═══════════════════════════ TOP BAR ═══════════════════════════ */
+.top-bar{background:#0F2454;color:rgba(255,255,255,.8);font-size:13px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.top-bar .container{display:flex;justify-content:space-between;align-items:center}
+.top-bar .left{display:flex;gap:24px}
+.top-bar .left span{display:flex;align-items:center;gap:6px}
+
+/* ═══════════════════════════ NAV ═══════════════════════════ */
+nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid #E5E7EB}
+nav .container{display:flex;justify-content:space-between;align-items:center;height:68px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#1E1E2E}
+.logo-mark{width:40px;height:40px;background:linear-gradient(135deg,#1E4DCC,#0F2454);color:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;letter-spacing:-.5px}
+.logo-text{line-height:1.15}
+.logo-text strong{font-size:17px;font-weight:700;display:block}
+.logo-text small{font-size:11px;color:#6B7280;font-weight:500;letter-spacing:.3px}
+.nav-links{display:flex;gap:32px;list-style:none;align-items:center}
+.nav-links a{font-size:14px;font-weight:500;color:#4B5563;padding:6px 0;border-bottom:2px solid transparent;transition:all .2s}
+.nav-links a:hover,.nav-links a.active{color:#1E4DCC;border-color:#1E4DCC}
+.nav-cta{background:#C8A84E;color:#fff!important;padding:10px 24px!important;border-radius:6px;border:none!important;font-weight:600}
+.nav-cta:hover{background:#B8973E!important;color:#fff!important}
+
+/* ═══════════════════════════ HERO ═══════════════════════════ */
+.hero{background:linear-gradient(150deg,#0F2454 0%,#1A3D8F 50%,#1E4DCC 100%);color:#fff;padding:clamp(72px,10vw,130px)0 80px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-30%;right:-10%;width:700px;height:700px;border-radius:50%;background:rgba(255,255,255,.03);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-20%;left:5%;width:400px;height:400px;border-radius:50%;background:rgba(200,168,78,.05);pointer-events:none}
+.hero .container{position:relative;z-index:1}
+.hero h1{margin-bottom:20px;max-width:780px}
+.hero p{font-size:18px;opacity:.88;margin-bottom:32px;max-width:600px;line-height:1.6}
+.hero-badges{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:36px}
+.hero-badges span{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);padding:6px 16px;border-radius:20px;font-size:13px;font-weight:500}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ═══════════════════════════ BUTTONS ═══════════════════════════ */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:6px;font-weight:600;font-size:14px;border:none;cursor:pointer;transition:all .3s;text-decoration:none;line-height:1}
+.btn-gold{background:#C8A84E;color:#1E1E2E}
+.btn-gold:hover{background:#B8973E;transform:translateY(-2px);box-shadow:0 8px 28px rgba(200,168,78,.35);color:#1E1E2E}
+.btn-outline-light{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+.btn-outline-light:hover{border-color:#fff;background:rgba(255,255,255,.08);color:#fff}
+.btn-outline{background:transparent;color:#1E4DCC;border:1.5px solid #D1D5DB}
+.btn-outline:hover{border-color:#1E4DCC;color:#1E4DCC;background:#F0F4FF}
+
+/* ═══════════════════════════ STATS BAR ═══════════════════════════ */
+.stats-bar{background:#fff;padding:32px 0;border-bottom:1px solid #E5E7EB}
+.stats-bar .container{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
+.stat-num{font-size:34px;font-weight:800;color:#0F2454;line-height:1;letter-spacing:-.03em}
+.stat-label{font-size:13px;color:#6B7280;margin-top:6px;font-weight:500}
+
+/* ═══════════════════════════ PRODUCTS ═══════════════════════════ */
+.products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.prod-card{background:#fff;border:1px solid #E5E7EB;border-radius:12px;overflow:hidden;transition:all .4s cubic-bezier(.25,.46,.45,.94);cursor:default}
+.prod-card:hover{border-color:#C8A84E;box-shadow:0 12px 40px rgba(0,0,0,.08);transform:translateY(-6px)}
+.prod-img{width:100%;aspect-ratio:1;background:#F7F8FA;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.prod-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.prod-card:hover .prod-img img{transform:scale(1.05)}
+.prod-body{padding:24px}
+.prod-body h3{margin-bottom:6px;font-size:17px}
+.prod-body p{font-size:13px;color:#6B7280;line-height:1.6}
+.prod-body .tag{display:inline-block;margin-top:12px;font-size:12px;color:#1E4DCC;font-weight:600}
+
+/* ═══════════════════════════ ABOUT ═══════════════════════════ */
+.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:start}
+.about-text p{margin-bottom:16px;color:#4B5563;line-height:1.8}
+.cert-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.cert-row span{padding:5px 14px;border:1px solid #1E4DCC;border-radius:20px;font-size:12px;font-weight:600;color:#1E4DCC}
+.cap-list{list-style:none}
+.cap-list li{padding:12px 0;border-bottom:1px solid #E5E7EB;display:flex;align-items:center;gap:10px;font-size:14px}
+.cap-list li::before{content:'▹';color:#C8A84E;font-weight:700;font-size:16px}
+
+/* ═══════════════════════════ ADVANTAGES ═══════════════════════════ */
 .adv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.adv-card{
-  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.08);
-  border-radius:var(--radius-md);padding:28px 24px;text-align:center;transition:.3s
-}
-.adv-card:hover{background:rgba(255,255,255,.12);transform:translateY(-2px)}
-.adv-card .icon{font-size:36px;margin-bottom:12px}
-.adv-card h3{font-size:16px;margin-bottom:6px}
-.adv-card p{font-size:13px;opacity:.75}
+.adv-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:32px 24px;text-align:center;transition:all .3s}
+.adv-card:hover{background:rgba(255,255,255,.1);transform:translateY(-3px)}
+.adv-card .icon{font-size:38px;margin-bottom:14px;display:block}
+.adv-card h3{font-size:16px;margin-bottom:8px;color:#fff}
+.adv-card p{font-size:13px;opacity:.7;line-height:1.6}
 
-/* ═══════════════ Contact ═══════════════ */
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+/* ═══════════════════════════ INDUSTRIES ═══════════════════════════ */
+.industries-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ind-card{background:#fff;border:1px solid #E5E7EB;border-radius:12px;padding:28px 24px;text-align:center;transition:all .3s}
+.ind-card:hover{border-color:#1E4DCC;box-shadow:0 4px 16px rgba(30,77,204,.08)}
+.ind-card .emoji{font-size:32px;margin-bottom:10px;display:block}
+.ind-card h3{font-size:15px;margin-bottom:4px}
+.ind-card p{font-size:12px;color:#6B7280}
+
+/* ═══════════════════════════ CONTACT ═══════════════════════════ */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
 .contact-info h3{font-size:18px;margin-bottom:20px}
-.contact-info p{margin-bottom:10px;color:var(--muted)}
-.contact-info strong{color:var(--text)}
-.form-group{margin-bottom:16px}
-.form-group input,.form-group textarea{
-  width:100%;padding:12px 16px;border:1px solid var(--gray-200);border-radius:var(--radius-sm);
-  font-family:inherit;font-size:14px;transition:.2s;background:var(--surface)
-}
-.form-group input:focus,.form-group textarea:focus{
-  outline:none;border-color:var(--blue-700);box-shadow:0 0 0 3px rgba(43,93,213,.1)
-}
+.contact-info p{margin-bottom:10px;color:#4B5563;font-size:14px}
+.contact-info strong{color:#1E1E2E}
+.contact-info .detail{margin-top:24px;padding-top:24px;border-top:1px solid #E5E7EB}
+.form-row{margin-bottom:16px}
+.form-row input,.form-row textarea{width:100%;padding:13px 16px;border:1px solid #D1D5DB;border-radius:6px;font-family:inherit;font-size:14px;transition:all .2s;background:#fff;color:#1E1E2E}
+.form-row input:focus,.form-row textarea:focus{outline:none;border-color:#1E4DCC;box-shadow:0 0 0 3px rgba(30,77,204,.1)}
+.form-row textarea{resize:vertical;min-height:120px}
 
-/* ═══════════════ Footer ═══════════════ */
-footer{background:var(--ink);color:rgba(255,255,255,.6);padding:48px 0 0}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
-footer h4{color:#fff;font-size:14px;margin-bottom:12px;font-weight:600}
+/* ═══════════════════════════ FOOTER ═══════════════════════════ */
+footer{background:#0F2454;color:rgba(255,255,255,.55);padding:56px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+footer h4{color:#fff;font-size:14px;font-weight:600;margin-bottom:16px;letter-spacing:.3px;text-transform:uppercase}
 footer p,footer li{font-size:13px;line-height:2.2}
 footer ul{list-style:none}
-footer a{color:rgba(255,255,255,.5)}
+footer a{color:rgba(255,255,255,.5);font-size:13px}
 footer a:hover{color:#fff}
-.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:16px 0;text-align:center;font-size:12px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.06);padding:20px 0;text-align:center;font-size:12px}
 
-/* ═══════════════ Responsive ═══════════════ */
-@media(max-width:900px){
-  .products-grid,.adv-grid{grid-template-columns:repeat(2,1fr)}
+/* ═══════════════════════════ RESPONSIVE ═══════════════════════════ */
+@media(max-width:968px){
+  .products-grid,.adv-grid,.industries-grid{grid-template-columns:repeat(2,1fr)}
   .about-grid,.contact-grid{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr 1fr}
 }
 @media(max-width:640px){
-  .products-grid,.adv-grid,.stats .container{grid-template-columns:1fr}
+  .products-grid,.adv-grid,.industries-grid,.stats-bar .container,.footer-grid{grid-template-columns:1fr}
   .nav-links{display:none}
-  .footer-grid{grid-template-columns:1fr}
   .hero h1{font-size:24px}
-  .btn-group{flex-direction:column}
+  .hero p{font-size:16px}
+  .hero-actions{flex-direction:column}
   .btn{width:100%;justify-content:center}
 }
 </style>
 </head>
 <body>
 
-<!-- ═══ Top Bar ═══ -->
+<!-- ═══ TOP BAR ═══ -->
 <div class="top-bar">
   <div class="container">
     <div class="left">
       <span>📞 +86-757-26329881</span>
       <span>✉️ info@gdpack.com.cn</span>
-    </div>
-    <div class="lang">
-      <span class="active">EN</span>
-      <span style="opacity:.3">|</span>
-      <span>中文</span>
+      <span>🌏 English</span>
     </div>
   </div>
 </div>
 
-<!-- ═══ Navigation ═══ -->
+<!-- ═══ NAV ═══ -->
 <nav>
   <div class="container">
     <a href="#" class="logo">
-      <div class="logo-mark">BC</div>
-      <div class="logo-text"><strong>Bincai</strong><small>Color Printing</small></div>
+      <img src="images/logo.png" alt="Bincai" style="height:36px;width:auto">
+      <div class="logo-text"><strong>Bincai</strong><small>Paper Box Manufacturer</small></div>
     </a>
     <ul class="nav-links">
       <li><a href="#products" class="active">Products</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#why-us">Why Us</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#capabilities">Capabilities</a></li>
+      <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
     </ul>
   </div>
 </nav>
 
-<!-- ═══ Hero ═══ -->
+<!-- ═══ HERO ═══ -->
 <section class="hero">
   <div class="container">
-    <h1>Premium Paper Box Manufacturer for Global Brands</h1>
-    <p>Guangdong Bincai Color Printing — 20+ years of excellence in custom rigid boxes, folding cartons, and corrugated mailer packaging. ISO9001 & FSC certified.</p>
-    <div class="hero-tags">
-      <span>✅ ISO9001:2015</span>
-      <span>✅ FSC Certified</span>
-      <span>✅ SGS Audited</span>
-      <span>✅ 50+ Countries</span>
+    <h1>Custom Paper Boxes<br>That Elevate Your Brand</h1>
+    <p>From rigid luxury gift boxes to custom corrugated mailers — we manufacture premium paper packaging for global brands. 20+ years of precision, one box at a time.</p>
+    <div class="hero-badges">
+      <span>ISO 9001:2015</span>
+      <span>FSC Certified</span>
+      <span>SGS Audited</span>
+      <span>20+ Years Experience</span>
+      <span>Global Shipping</span>
     </div>
-    <div class="btn-group">
+    <div class="hero-actions">
       <a href="#contact" class="btn btn-gold">Request a Quote →</a>
-      <a href="#products" class="btn btn-outline">View Products</a>
+      <a href="#products" class="btn btn-outline-light">View Products</a>
     </div>
   </div>
 </section>
 
-<!-- ═══ Stats ═══ -->
-<div class="stats">
+<!-- ═══ STATS ═══ -->
+<div class="stats-bar">
   <div class="container">
-    <div><div class="stat-num">20+</div><div class="stat-label">Years Experience</div></div>
-    <div><div class="stat-num">8,000</div><div class="stat-label">㎡ Factory Area</div></div>
-    <div><div class="stat-num">990</div><div class="stat-label">Products</div></div>
-    <div><div class="stat-num">50+</div><div class="stat-label">Export Countries</div></div>
+    <div><div class="stat-num">20+</div><div class="stat-label">Years in Paper Packaging</div></div>
+    <div><div class="stat-num">8,000</div><div class="stat-label">m² Manufacturing Facility</div></div>
+    <div><div class="stat-num">990+</div><div class="stat-label">Products Delivered</div></div>
+    <div><div class="stat-num">50+</div><div class="stat-label">Countries Exported To</div></div>
   </div>
 </div>
 
-<!-- ═══ Products ═══ -->
+<!-- ═══ PRODUCTS ═══ -->
 <section id="products" class="section">
   <div class="container">
-    <h2>Our Product Range</h2>
-    <p class="section-sub">Comprehensive paper packaging solutions for every industry application</p>
+    <h2>Paper Box Solutions for Every Industry</h2>
+    <p class="section-sub">From concept to delivery — we engineer packaging that protects, presents, and sells.</p>
     <div class="products-grid">
       <div class="prod-card">
-        <div class="prod-icon">📦</div>
-        <h3>Rigid Gift Box</h3>
-        <p>Premium rigid paper boxes for luxury gifts, cosmetics, and electronics with custom inserts available.</p>
+        <div class="prod-img"><img src="images/rigid-gift-box.jpg" alt="Rigid gift box with magnetic closure" loading="lazy"></div>
+        <div class="prod-body">
+          <h3>Rigid Gift Boxes</h3>
+          <p>Premium two-piece boxes for luxury goods, cosmetics, and electronics. Available with magnetic closures, ribbon ties, and custom inserts.</p>
+          <span class="tag">Luxury Packaging →</span>
+        </div>
       </div>
       <div class="prod-card">
-        <div class="prod-icon">🧲</div>
-        <h3>Magnetic Closure Box</h3>
-        <p>Elegant magnetic-lid boxes for high-end product packaging with foil stamping and embossing options.</p>
+        <div class="prod-img"><img src="images/magnetic-closure-box.jpg" alt="Magnetic closure paper box" loading="lazy"></div>
+        <div class="prod-body">
+          <h3>Magnetic Closure Boxes</h3>
+          <p>Elegant rigid boxes with integrated magnets for a seamless close. Ideal for premium retail and corporate gifting.</p>
+          <span class="tag">Premium Gift Packaging →</span>
+        </div>
       </div>
       <div class="prod-card">
-        <div class="prod-icon">📋</div>
-        <h3>Folding Carton Box</h3>
-        <p>Space-saving foldable boxes for retail, e-commerce, and food packaging with full-color printing.</p>
+        <div class="prod-img" style="background:#F0F4FF"><span style="font-size:64px;color:#1E4DCC">📋</span></div>
+        <div class="prod-body">
+          <h3>Folding Cartons</h3>
+          <p>Space-efficient foldable boxes for retail, e-commerce, and food packaging. Full-color CMYK printing with custom finishes.</p>
+          <span class="tag">Retail & E-Commerce →</span>
+        </div>
       </div>
       <div class="prod-card">
-        <div class="prod-icon">📮</div>
-        <h3>Corrugated Mailer Box</h3>
-        <p>Durable shipping boxes for safe product delivery, available in custom sizes and kraft finish.</p>
+        <div class="prod-img" style="background:#F7F8FA"><span style="font-size:64px;color:#6B7280">📮</span></div>
+        <div class="prod-body">
+          <h3>Corrugated Mailers</h3>
+          <p>Durable shipping boxes designed for safe product transit. Custom sizes, kraft or white finish, eco-friendly materials.</p>
+          <span class="tag">Shipping & Logistics →</span>
+        </div>
       </div>
       <div class="prod-card">
-        <div class="prod-icon">🌿</div>
-        <h3>Kraft Paper Box</h3>
-        <p>Eco-friendly kraft packaging for sustainable brands, fully recyclable and biodegradable.</p>
+        <div class="prod-img" style="background:#F5F0E6"><span style="font-size:64px;color:#C8A84E">🌿</span></div>
+        <div class="prod-body">
+          <h3>Kraft & Eco Boxes</h3>
+          <p>Sustainable packaging solutions using recycled kraft materials. Fully biodegradable, compostable, and FSC-certified.</p>
+          <span class="tag">Sustainable Packaging →</span>
+        </div>
       </div>
       <div class="prod-card">
-        <div class="prod-icon">💎</div>
-        <h3>Luxury Jewelry Box</h3>
-        <p>Custom jewelry packaging with velvet inserts, window cutouts, and branded finishes.</p>
+        <div class="prod-img" style="background:#FFF5F5"><span style="font-size:64px;color:#E53E3E">💎</span></div>
+        <div class="prod-body">
+          <h3>Jewelry & Specialty Boxes</h3>
+          <p>Custom-designed boxes for jewelry, watches, and small luxury items. Velvet inserts, window cutouts, foil stamping.</p>
+          <span class="tag">Specialty Packaging →</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ About ═══ -->
-<section id="about" class="section" style="background:var(--gray-50)">
+<!-- ═══ INDUSTRIES ═══ -->
+<section class="section section-gray">
   <div class="container">
-    <h2>About Guangdong Bincai</h2>
+    <h2>Industries We Serve</h2>
+    <p class="section-sub">Trusted by businesses across sectors for reliable, high-quality paper packaging.</p>
+    <div class="industries-grid">
+      <div class="ind-card"><span class="emoji">🧴</span><h3>Cosmetics & Skincare</h3><p>Lotion boxes, perfume packaging, gift sets</p></div>
+      <div class="ind-card"><span class="emoji">🍷</span><h3>Food & Beverage</h3><p>Pizza boxes, bakery boxes, bottle carriers</p></div>
+      <div class="ind-card"><span class="emoji">📱</span><h3>Electronics</h3><p>Phone boxes, accessory packaging, inserts</p></div>
+      <div class="ind-card"><span class="emoji">👔</span><h3>Apparel & Fashion</h3><p>Shirt boxes, bag boxes, display packaging</p></div>
+      <div class="ind-card"><span class="emoji">🎁</span><h3>Corporate Gifting</h3><p>Custom branded boxes, gift sets, premium kits</p></div>
+      <div class="ind-card"><span class="emoji">💊</span><h3>Health & Medical</h3><p>Medical device packaging, supplement boxes</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about" class="section">
+  <div class="container">
+    <h2>Built on 20 Years of<br>Packaging Expertise</h2>
     <div class="about-grid">
       <div class="about-text">
-        <p>Founded in 2003, Guangdong Bincai Color Printing Co., Ltd. is a professional paper box manufacturer with more than 20 years of deep industry experience. We own a modern production base covering 8,000 square meters in Foshan, Guangdong — the heart of China's manufacturing hub.</p>
-        <p>We specialize in one-stop customized packaging solutions for global clients, integrating independent R&D, innovative design, intelligent production, and efficient sales into a seamless supply chain.</p>
-        <div class="badge-group">
-          <span class="badge">ISO 9001:2015</span>
-          <span class="badge">FSC Certified</span>
-          <span class="badge">SGS Audited</span>
-          <span class="badge">20+ Years</span>
+        <p>Guangdong Bincai Color Printing Co., Ltd. was founded in 2003 in Foshan, Guangdong — the heart of China's manufacturing region. We've spent two decades perfecting the art of paper box manufacturing, serving clients across five continents.</p>
+        <p>Our 8,000m² facility houses advanced automated production lines capable of handling everything from small-batch custom runs to large-volume production. Every box passes through our multi-stage quality control process before it ships.</p>
+        <p>We don't just make boxes — we engineer packaging solutions that protect your product, reinforce your brand, and create an unforgettable unboxing experience.</p>
+        <div class="cert-row">
+          <span>ISO 9001:2015</span>
+          <span>FSC® Certified</span>
+          <span>SGS Verified</span>
+          <span>20+ Years</span>
         </div>
       </div>
       <div>
-        <h3 style="margin-bottom:16px">Core Capabilities</h3>
-        <ul class="feature-list">
-          <li>Custom size & shape manufacturing</li>
-          <li>Full-color CMYK + Pantone printing</li>
-          <li>Foil stamping, embossing, spot UV</li>
-          <li>Matte/glossy lamination</li>
-          <li>Rigid box wrapping</li>
-          <li>Magnetic closure & ribbon tie</li>
-          <li>Dividers, trays & foam inserts</li>
-          <li>Sample within 3-5 days</li>
+        <h3 style="margin-bottom:16px;font-weight:600">What We Do Best</h3>
+        <ul class="cap-list">
+          <li>Custom sizes & shapes — any dimension</li>
+          <li>Full CMYK + Pantone spot color printing</li>
+          <li>Foil stamping, embossing & debossing</li>
+          <li>Matte / gloss lamination & spot UV</li>
+          <li>Rigid box wrapping & corner folding</li>
+          <li>Magnetic closures, ribbons & hinges</li>
+          <li>Custom inserts — foam, velvet, dividers</li>
+          <li>Rapid prototyping — samples in 3–5 days</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ Why Us / Advantages ═══ -->
-<section id="why-us" class="section section-dark">
+<!-- ═══ CAPABILITIES ═══ -->
+<section id="capabilities" class="section section-dark">
   <div class="container">
-    <h2>Why Choose Bincai</h2>
+    <h2>Why Global Brands Choose Bincai</h2>
     <div class="adv-grid">
-      <div class="adv-card">
-        <div class="icon">🏭</div>
-        <h3>Advanced Manufacturing</h3>
-        <p>8,000㎡ modern facility with automated production lines, ensuring consistent quality and timely delivery.</p>
-      </div>
-      <div class="adv-card">
-        <div class="icon">✅</div>
-        <h3>Strict Quality Control</h3>
-        <p>Comprehensive QC process from raw material inspection through production to final packaging.</p>
-      </div>
-      <div class="adv-card">
-        <div class="icon">🌍</div>
-        <h3>Global Logistics</h3>
-        <p>Export to 50+ countries with reliable shipping partners. Courier, air, and sea freight options available.</p>
-      </div>
-      <div class="adv-card">
-        <div class="icon">🎨</div>
-        <h3>Custom Design</h3>
-        <p>Professional in-house design team for custom packaging solutions, from concept to finished product.</p>
-      </div>
-      <div class="adv-card">
-        <div class="icon">🤝</div>
-        <h3>Partnership Approach</h3>
-        <p>We view every client as a long-term partner, offering competitive pricing and dedicated account management.</p>
-      </div>
-      <div class="adv-card">
-        <div class="icon">📋</div>
-        <h3>Sample Service</h3>
-        <p>Free samples for quality evaluation. Sample fees deductible from future order quantities.</p>
-      </div>
+      <div class="adv-card"><span class="icon">🏭</span><h3>Advanced Manufacturing</h3><p>8,000m² facility with automated die-cutting, folding, and finishing lines for consistent quality at scale.</p></div>
+      <div class="adv-card"><span class="icon">✅</span><h3>Rigorous Quality Control</h3><p>Multi-point inspection from raw material through finished goods. Every shipment is verified before dispatch.</p></div>
+      <div class="adv-card"><span class="icon">🌍</span><h3>Reliable Global Logistics</h3><p>Export partners with DHL, FedEx, and major freight carriers. Courier (3–7d), air (7–12d), sea (15–35d).</p></div>
+      <div class="adv-card"><span class="icon">🎨</span><h3>In-House Design Team</h3><p>Professional designers to develop your packaging from concept to production-ready artwork.</p></div>
+      <div class="adv-card"><span class="icon">🤝</span><h3>Partnership Approach</h3><p>We view every client as a long-term partner — competitive pricing, dedicated account management, no minimum commitments.</p></div>
+      <div class="adv-card"><span class="icon">📋</span><h3>Free Sampling</h3><p>Request physical samples to evaluate quality before committing. Sample costs are deducted from your first order.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ═══ Contact ═══ -->
+<!-- ═══ CONTACT ═══ -->
 <section id="contact" class="section">
   <div class="container">
-    <h2>Get in Touch</h2>
-    <p class="section-sub">Send us your requirements and we'll respond within 24 hours</p>
+    <h2>Let's Build Your Packaging</h2>
+    <p class="section-sub">Tell us about your project and we'll respond with a detailed quote within 24 hours.</p>
     <div class="contact-grid">
+      <div>
+        <form id="contactForm">
+          <div class="form-row"><input type="text" placeholder="Full Name *" required></div>
+          <div class="form-row"><input type="email" placeholder="Email Address *" required></div>
+          <div class="form-row"><input type="text" placeholder="Company Name"></div>
+          <div class="form-row"><textarea rows="4" placeholder="Describe your project — dimensions, quantity, material preference, deadline... *" required></textarea></div>
+          <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center">Send Inquiry →</button>
+        </form>
+      </div>
       <div class="contact-info">
         <h3>Guangdong Bincai Color Printing Co., Ltd.</h3>
-        <p><strong>📍 Address:</strong> Room 103, Building 7, No. 6-7 Shunyuan North Road, Wusha Community, Daliang Street, Shunde District, Foshan City, Guangdong, China</p>
-        <p><strong>📞 Phone:</strong> +86-757-26329881</p>
-        <p><strong>✉️ Email:</strong> info@gdpack.com.cn</p>
-        <p><strong>🌐 MIC Store:</strong> <a href="https://bincaipaperbox.en.made-in-china.com" target="_blank" rel="noopener">bincaipaperbox.en.made-in-china.com</a></p>
-        <p><strong>👤 Contact:</strong> Mr. Henry / Sales Manager</p>
-        <p style="margin-top:20px;font-size:13px;color:var(--muted)">We typically respond within 2-4 hours during business hours (GMT+8).</p>
+        <p><strong>📍 Address:</strong><br>Room 103, Building 7, No. 6-7 Shunyuan North Rd., Daliang St., Shunde Dist., Foshan, Guangdong, China</p>
+        <p><strong>📞 Phone:</strong><br>+86-757-26329881</p>
+        <p><strong>✉️ Email:</strong><br>info@gdpack.com.cn</p>
+        <div class="detail">
+          <p><strong>👤 Contact Person:</strong> Mr. Henry / Sales Manager</p>
+          <p><strong>⏰ Response Time:</strong> Within 2–4 hours (GMT+8 business hours)</p>
+          <p><strong>🌐 MIC Storefront:</strong> <a href="https://bincaipaperbox.en.made-in-china.com" target="_blank" rel="noopener">bincaipaperbox.en.made-in-china.com →</a></p>
+        </div>
       </div>
-      <form id="contactForm">
-        <div class="form-group"><input type="text" placeholder="Your Name *" required></div>
-        <div class="form-group"><input type="email" placeholder="Your Email *" required></div>
-        <div class="form-group"><input type="text" placeholder="Company Name"></div>
-        <div class="form-group"><textarea rows="4" placeholder="Describe your packaging requirements (dimensions, quantity, material preference...) *" required></textarea></div>
-        <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center">Send Inquiry →</button>
-      </form>
     </div>
   </div>
 </section>
 
-<!-- ═══ Footer ═══ -->
+<!-- ═══ FOOTER ═══ -->
 <footer>
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h4>Bincai Color Printing</h4>
-        <p style="line-height:1.7">Professional paper box manufacturer since 2003. Your trusted partner in custom packaging solutions, serving global brands across 50+ countries.</p>
+        <h4>Bincai Paper Box</h4>
+        <p style="line-height:1.7">Premium paper box manufacturer serving global brands since 2003. ISO 9001 & FSC certified. Custom packaging solutions from Foshan, China.</p>
       </div>
       <div>
         <h4>Products</h4>
-        <ul><li>Rigid Gift Box</li><li>Magnetic Box</li><li>Folding Box</li><li>Corrugated Box</li><li>Kraft Box</li></ul>
+        <ul><li>Rigid Gift Boxes</li><li>Magnetic Closure Boxes</li><li>Folding Cartons</li><li>Corrugated Mailers</li><li>Kraft & Eco Boxes</li><li>Jewelry Boxes</li></ul>
       </div>
       <div>
-        <h4>Quick Links</h4>
+        <h4>Company</h4>
         <ul>
           <li><a href="#products">Products</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#capabilities">Capabilities</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="https://bincaipaperbox.en.made-in-china.com" target="_blank" rel="noopener">MIC Store →</a></li>
         </ul>
@@ -401,11 +383,11 @@ footer a:hover{color:#fff}
         <h4>Contact</h4>
         <p>📞 +86-757-26329881</p>
         <p>✉️ info@gdpack.com.cn</p>
-        <p>📍 Foshan, Guangdong</p>
+        <p>📍 Foshan, Guangdong, China</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2003-2026 Guangdong Bincai Color Printing Co., Ltd. All Rights Reserved.</p>
+      <p>© 2003–2026 Guangdong Bincai Color Printing Co., Ltd. All rights reserved.</p>
     </div>
   </div>
 </footer>
@@ -419,11 +401,10 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if(t) t.scrollIntoView({behavior:'smooth'});
   });
 });
-
-// Nav highlight on scroll
+// Nav highlight
 window.addEventListener('scroll', ()=>{
   const y = window.scrollY;
-  document.querySelectorAll('section[id],div.stats').forEach(s => {
+  document.querySelectorAll('section[id]').forEach(s => {
     const link = document.querySelector(`.nav-links a[href="#${s.id}"]`);
     if(!link) return;
     const top = s.offsetTop - 150, bot = top + s.offsetHeight;
@@ -433,11 +414,10 @@ window.addEventListener('scroll', ()=>{
     }
   });
 });
-
 // Form
 document.getElementById('contactForm')?.addEventListener('submit', e => {
   e.preventDefault();
-  alert('Thank you for your inquiry! We will get back to you within 24 hours.');
+  alert('Thank you for your inquiry! We typically respond within 2–4 hours during business hours (GMT+8).');
   e.target.reset();
 });
 </script>
